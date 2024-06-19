@@ -11,3 +11,5 @@ with tab1:
     st.write(f"your query : {sql_query}")
     st.dataframe(result)
 
+with tab2:
+    sql_query = st.text_area(label = "write tour input")
